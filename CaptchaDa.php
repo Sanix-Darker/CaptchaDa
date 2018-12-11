@@ -40,7 +40,7 @@
   }
 
   function getBox(){
-    echo '<img style="width: 100%;" src="CaptchaDa.php"><br><input type="text" name="CAPTCHADA" placeholder="Write the Code here." style="width: 100%;">';
+    echo '<form action=""><img style="width: 100%;" src="CaptchaDa.php"><br><input type="text" name="CAPTCHADA" placeholder="Write the Code here and press Enter." style="width: 100%;"></form>';
   }
 
   (isset($_REQUEST['getbox']))? getBox(): CaptchaDa(120,50,7,10);
